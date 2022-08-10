@@ -68,10 +68,11 @@ const Header = () => (
         )
       )}
       <a
+        className="app__header-resume"
         target="_blank"
         href={`https://drive.google.com/file/d/1b47jaBcYCX2Uu3KZt39YEyA5S__fVpx1/view?usp=sharing`}
       >
-        <h1>Resume</h1>
+        <h1>👉Resume👈</h1>
       </a>
     </motion.div>
   </div>
