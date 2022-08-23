@@ -70,7 +70,7 @@ const Header = () => (
       <a
         className="app__header-resume"
         target="_blank"
-        href={`https://drive.google.com/file/d/199vv5zK_kYBwigbAP-vy0qju-aaoouls/view?usp=sharing`}
+        href={`https://drive.google.com/file/d/1ooaNaE6KFEU6yTsLJyJheqeJADBh56lC/view?usp=sharing`}
       >
         <h1>👉Resume👈</h1>
       </a>
