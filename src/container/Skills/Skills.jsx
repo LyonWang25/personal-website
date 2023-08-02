@@ -16,13 +16,16 @@ const Skills = () => {
 
     client.fetch(query).then((data) => {
       setExperiences(data);
+      const sortedData = data.sort((a, b) => b.year - a.year);
+      setExperiences(sortedData);
       // var compare = data.sort(({yearFrom:a}, {yearFrom:b})=> b-a);
       // console.log(compare)
     });
     // const sorData = data.sort((a, b)=> a.yearFrom - yearTo)
 
     client.fetch(skillsQuery).then((data) => {
-      setSkills(data);
+      const sortedSkills = data.sort((a, b) => a.name.localeCompare(b.name));
+      setSkills(sortedSkills);
     });
   }, []);
 
